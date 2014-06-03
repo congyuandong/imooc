@@ -17,28 +17,28 @@ app.get('/',function(req,res){
 		movies:[{
 			title:'机械战警',
 			_id:1,
-			poster:'http://image.baidu.com/i?ct=503316480&z=&tn=baiduimagedetail&ipn=d&word=%E6%9C%BA%E6%A2%B0%E6%88%98%E8%AD%A6&step_word=&ie=utf-8&in=25219&cl=2&lm=-1&st=&pn=0&rn=1&di=778702320&ln=1951&fr=&&fmq=1401814447122_R&ic=&s=&se=&sme=0&tab=&width=&height=&face=&is=&istype=&ist=&jit=&objurl=http%3A%2F%2Fpic19.nipic.com%2F20120305%2F5056539_180548610106_2.jpg'
+			poster:'http://r3.ykimg.com/05160000530EEB63675839160D0B79D5'
 		},{
 			title:'机械战警',
 			_id:2,
-			poster:'http://image.baidu.com/i?ct=503316480&z=&tn=baiduimagedetail&ipn=d&word=%E6%9C%BA%E6%A2%B0%E6%88%98%E8%AD%A6&step_word=&ie=utf-8&in=25219&cl=2&lm=-1&st=&pn=0&rn=1&di=778702320&ln=1951&fr=&&fmq=1401814447122_R&ic=&s=&se=&sme=0&tab=&width=&height=&face=&is=&istype=&ist=&jit=&objurl=http%3A%2F%2Fpic19.nipic.com%2F20120305%2F5056539_180548610106_2.jpg'
+			poster:'http://r3.ykimg.com/05160000530EEB63675839160D0B79D5'
 		},{
 			title:'机械战警',
 			_id:3,
-			poster:'http://image.baidu.com/i?ct=503316480&z=&tn=baiduimagedetail&ipn=d&word=%E6%9C%BA%E6%A2%B0%E6%88%98%E8%AD%A6&step_word=&ie=utf-8&in=25219&cl=2&lm=-1&st=&pn=0&rn=1&di=778702320&ln=1951&fr=&&fmq=1401814447122_R&ic=&s=&se=&sme=0&tab=&width=&height=&face=&is=&istype=&ist=&jit=&objurl=http%3A%2F%2Fpic19.nipic.com%2F20120305%2F5056539_180548610106_2.jpg'
+			poster:'http://r3.ykimg.com/05160000530EEB63675839160D0B79D5'
 		},{
 			title:'机械战警',
 			_id:4,
-			poster:'http://image.baidu.com/i?ct=503316480&z=&tn=baiduimagedetail&ipn=d&word=%E6%9C%BA%E6%A2%B0%E6%88%98%E8%AD%A6&step_word=&ie=utf-8&in=25219&cl=2&lm=-1&st=&pn=0&rn=1&di=778702320&ln=1951&fr=&&fmq=1401814447122_R&ic=&s=&se=&sme=0&tab=&width=&height=&face=&is=&istype=&ist=&jit=&objurl=http%3A%2F%2Fpic19.nipic.com%2F20120305%2F5056539_180548610106_2.jpg'
+			poster:'http://r3.ykimg.com/05160000530EEB63675839160D0B79D5'
 		},{
 			title:'机械战警',
 			_id:5,
-			poster:'http://image.baidu.com/i?ct=503316480&z=&tn=baiduimagedetail&ipn=d&word=%E6%9C%BA%E6%A2%B0%E6%88%98%E8%AD%A6&step_word=&ie=utf-8&in=25219&cl=2&lm=-1&st=&pn=0&rn=1&di=778702320&ln=1951&fr=&&fmq=1401814447122_R&ic=&s=&se=&sme=0&tab=&width=&height=&face=&is=&istype=&ist=&jit=&objurl=http%3A%2F%2Fpic19.nipic.com%2F20120305%2F5056539_180548610106_2.jpg'
+			poster:'http://r3.ykimg.com/05160000530EEB63675839160D0B79D5'
 		}
 		,{
 			title:'机械战警',
 			_id:6,
-			poster:'http://image.baidu.com/i?ct=503316480&z=&tn=baiduimagedetail&ipn=d&word=%E6%9C%BA%E6%A2%B0%E6%88%98%E8%AD%A6&step_word=&ie=utf-8&in=25219&cl=2&lm=-1&st=&pn=0&rn=1&di=778702320&ln=1951&fr=&&fmq=1401814447122_R&ic=&s=&se=&sme=0&tab=&width=&height=&face=&is=&istype=&ist=&jit=&objurl=http%3A%2F%2Fpic19.nipic.com%2F20120305%2F5056539_180548610106_2.jpg'
+			poster:'http://r3.ykimg.com/05160000530EEB63675839160D0B79D5'
 		}]
 	})
 })
@@ -51,7 +51,7 @@ app.get('/movie/:id',function(req,res){
 			country:'美国',
 			title:'机械战警',
 			year:2014,
-			poster:'http://image.baidu.com/i?ct=503316480&z=&tn=baiduimagedetail&ipn=d&word=%E6%9C%BA%E6%A2%B0%E6%88%98%E8%AD%A6&step_word=&ie=utf-8&in=25219&cl=2&lm=-1&st=&pn=0&rn=1&di=778702320&ln=1951&fr=&&fmq=1401814447122_R&ic=&s=&se=&sme=0&tab=&width=&height=&face=&is=&istype=&ist=&jit=&objurl=http%3A%2F%2Fpic19.nipic.com%2F20120305%2F5056539_180548610106_2.jpg',
+			poster:'http://r3.ykimg.com/05160000530EEB63675839160D0B79D5',
 			language:'英语',
 			flash:'',
 			summary:'哈哈哈'
@@ -82,7 +82,7 @@ app.get('/admin/list',function(req,res){
 			title:'机械战警',
 			_id:1,
 			doctor:'何塞'
-			poster:'http://image.baidu.com/i?ct=503316480&z=&tn=baiduimagedetail&ipn=d&word=%E6%9C%BA%E6%A2%B0%E6%88%98%E8%AD%A6&step_word=&ie=utf-8&in=25219&cl=2&lm=-1&st=&pn=0&rn=1&di=778702320&ln=1951&fr=&&fmq=1401814447122_R&ic=&s=&se=&sme=0&tab=&width=&height=&face=&is=&istype=&ist=&jit=&objurl=http%3A%2F%2Fpic19.nipic.com%2F20120305%2F5056539_180548610106_2.jpg'
+			poster:'http://r3.ykimg.com/05160000530EEB63675839160D0B79D5'
 			country:'美国',
 			year:'2014',
 			language:'英语',
