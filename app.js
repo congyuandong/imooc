@@ -45,7 +45,7 @@ app.get('/',function(req,res){
 })
 
 app.get('/movie/:id',function(req,res){
-	res.render('detail',{
+	res.render('/movie/:id',{
 		title:'imooc 详情页',
 		movie:{
 			doctor:'何塞',
@@ -54,14 +54,14 @@ app.get('/movie/:id',function(req,res){
 			year:2014,
 			poster:'http://r3.ykimg.com/05160000530EEB63675839160D0B79D5',
 			language:'英语',
-			flash:'',
+			flash:'http://player.youku.com/player.php/sid/XNjM3Njc3MTY4/v.swf',
 			summary:'哈哈哈'
 		}
 	})
 })
 
 app.get('/admin/movie',function(req,res){
-	res.render('detail',{
+	res.render('/admin/movie',{
 		title:'imooc 后台录入页面',
 		movie:{
 			doctor:'',
@@ -77,7 +77,7 @@ app.get('/admin/movie',function(req,res){
 })
 
 app.get('/admin/list',function(req,res){
-	res.render('detail',{
+	res.render('/admin/list',{
 		title:'imooc 列表页',
 		movies:[{
 			title:'机械战警',
@@ -87,7 +87,7 @@ app.get('/admin/list',function(req,res){
 			country:'美国',
 			year:'2014',
 			language:'英语',
-			flash:'',
+			flash:'http://player.youku.com/player.php/sid/XNjM3Njc3MTY4/v.swf',
 			summary:'你好啊'
 		}]
 	})
