@@ -1,18 +1,19 @@
 var express = require('express')
 var path = require('path')
+var bodyParser = require('body-parser')
 var port = process.env.PORT || 80
 var app = express()
 
 app.set('views','./views/pages')
 app.set('view engine','jade')
-app.use(express.bodyParser())
+app.use(bodyParser())
 app.use(express.static(path.join(__dirname,'bower_components')))
 app.listen(port)
 
 console.log('imooc started on port '+port)
 
 app.get('/',function(req,res){
-	res.render('detail',{
+	res.render('index',{
 		title:'imooc 首页',
 		movies:[{
 			title:'机械战警',
