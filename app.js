@@ -81,8 +81,8 @@ app.get('/admin/list',function(req,res){
 		movies:[{
 			title:'机械战警',
 			_id:1,
-			doctor:'何塞'
-			poster:'http://r3.ykimg.com/05160000530EEB63675839160D0B79D5'
+			doctor:'何塞',
+			poster:'http://r3.ykimg.com/05160000530EEB63675839160D0B79D5',
 			country:'美国',
 			year:'2014',
 			language:'英语',
