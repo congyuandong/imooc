@@ -1,0 +1,10 @@
+extends ../layout
+
+block content
+	.container
+		.row
+			from.form-horizotal(method="post",action="/admin/movie/new")
+				.form-group
+					lable.col-sm-3.control-lable(for="inputTitle") 电影名字
+					.col-sm-10
+						input#inputTitle.form-control(type="text",name="movie[title]")
