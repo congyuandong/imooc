@@ -14,7 +14,7 @@ console.log('imooc started on port '+port)
 
 app.get('/',function(req,res){
 	res.render('index',{
-		title:'imooc 首页',
+		title:'影院热度播报',
 		movies:[{
 			title:'机械战警',
 			_id:1,
