@@ -4,7 +4,39 @@ block content
 	.container
 		.row
 			from.form-horizotal(method="post",action="/admin/movie/new")
+				input(type="hidden",name="movie[_id]",value="#{movie._id}")
 				.form-group
-					lable.col-sm-3.control-lable(for="inputTitle") 电影名字
+					lable.col-sm-2.control-lable(for="inputTitle") 电影名字
 					.col-sm-10
-						input#inputTitle.form-control(type="text",name="movie[title]")
+						input#inputTitle.form-control(type="text",name="movie[title]",value="#{movie.title}")
+				.form-group
+					lable.col-sm-2.control-lable(for="inputDoctor") 电影导演
+					.col-sm-10
+						input#inputDoctor.form-control(type="text",name="movie[doctor]",value="#{movie.doctor}")
+				.form-group
+					lable.col-sm-2.control-lable(for="inputCountry") 国家
+					.col-sm-10
+						input#inputCountry.form-control(type="text",name="movie[country]",value="#{movie.country}")
+				.form-group
+					lable.col-sm-2.control-lable(for="inputLanguage") 语种
+					.col-sm-10
+						input#inputLanguage.form-control(type="text",name="movie[language]",value="#{movie.language}")
+				.form-group
+					lable.col-sm-2.control-lable(for="inputPoster") 海报地址
+					.col-sm-10
+						input#inputPoster.form-control(type="text",name="movie[poster]",value="#{movie.poster}")
+				.form-group
+					lable.col-sm-2.control-lable(for="inputTitle") 片源地址
+					.col-sm-10
+						input#inputTitle.form-control(type="text",name="movie[doctor]",value="#{movie.doctor}")
+				.form-group
+					lable.col-sm-2.control-lable(for="inputYear") 上映年代
+					.col-sm-10
+						input#inputYear.form-control(type="text",name="movie[year]",value="#{movie.year}")
+				.form-group
+					lable.col-sm-2.control-lable(for="inputSummary") 电影简介
+					.col-sm-10
+						input#inputSummary.form-control(type="text",name="movie[summary]",value="#{movie.summary}")
+				.form-group
+					.col-sm-offset-2.col-sm-10
+					button.btn.btn-default(type="submit") 录入
