@@ -1,4 +1,4 @@
-var mongoose = requeire('mongoose')
+var mongoose = require('mongoose')
 
 var MovieSchema = new mongoose.Schema({
 	doctor:String,
