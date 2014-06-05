@@ -22,10 +22,10 @@ app.get('/',function(req,res){
 		if(err){
 			console.log(err)
 		}
-	})
-	res.render('index',{
-		title:'影院热度播报',
-		movies:movies
+		res.render('index',{
+			title:'影院热度播报',
+			movies:movies
+		})
 	})
 })
 
@@ -70,7 +70,7 @@ app.get('/admin/update/:id',function(req,res){
 })
 
 // admin post movie
-app.post('/admin/movie/new',function(){
+app.post('/admin/movie/new',function(req,res){
 	var id = req.body.movie._id
 	var movieObj = req.body.movie
 
@@ -119,9 +119,9 @@ app.get('/admin/list',function(req,res){
 		if(err){
 			console.log(err)
 		}
-	})
-	res.render('list',{
-		title:'imooc 列表页',
-		movies:movies
+		res.render('list',{
+			title:'imooc 列表页',
+			movies:movies
+		})
 	})
 })
