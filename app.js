@@ -61,7 +61,7 @@ app.get('/movie/:id',function(req,res){
 })
 
 app.get('/admin/movie',function(req,res){
-	res.render('/admin',{
+	res.render('admin',{
 		title:'imooc 后台录入页面',
 		movie:{
 			doctor:'',
@@ -77,7 +77,7 @@ app.get('/admin/movie',function(req,res){
 })
 
 app.get('/admin/list',function(req,res){
-	res.render('/admin/list',{
+	res.render('list',{
 		title:'imooc 列表页',
 		movies:[{
 			title:'机械战警',
