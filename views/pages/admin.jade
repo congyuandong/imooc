@@ -3,7 +3,7 @@ extends ../layout
 block content
 	.container
 		.row
-			form.form-horizotal(method="post",action="/admin/movie/new")
+			from.form-horizotal(method="post",action="/admin/movie/new")
 				input(type="hidden",name="movie[_id]",value="#{movie._id}")
 				.form-group
 					lable.col-sm-2.control-lable(for="inputTitle") 电影名字
@@ -26,9 +26,9 @@ block content
 					.col-sm-10
 						input#inputPoster.form-control(type="text",name="movie[poster]",value="#{movie.poster}")
 				.form-group
-					lable.col-sm-2.control-lable(for="inputTitle") 片源地址
+					lable.col-sm-2.control-lable(for="inputFlash") 片源地址
 					.col-sm-10
-						input#inputTitle.form-control(type="text",name="movie[doctor]",value="#{movie.doctor}")
+						input#inputFlash.form-control(type="text",name="movie[flash]",value="#{movie.flash}")
 				.form-group
 					lable.col-sm-2.control-lable(for="inputYear") 上映年代
 					.col-sm-10
