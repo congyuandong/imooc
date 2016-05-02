@@ -6,7 +6,7 @@ var bodyParser = require('body-parser')
 var _ = require('underscore')
 var port = process.env.PORT || 80
 var app = express()
-
+app.locals.moment = require('moment')
 mongoose.connect('mongodb://localhost/imooc')
 
 app.set('views','./views/pages')
